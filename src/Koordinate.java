@@ -29,6 +29,18 @@ public class Koordinate {
         return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
     }
 
+    /**
+     * Overloadinta atstumo tarp dviejų koordinačių funcija
+     * @param x1 pirmos koordinatės x
+     * @param y1 pirmos koordinatės y
+     * @param x2 antros koordinatės x
+     * @param y2 antros koordinatės y
+     * @return
+     */
+    public static double atstumasTarpDviejuKoordinaciu(double x1, double y1, double x2, double y2) {
+        return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
+    }
+
     // getteriai-setteriai
     public double getX() {
         return x;
