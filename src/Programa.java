@@ -16,5 +16,9 @@ public class Programa {
 
         double kitasAtstumas = Koordinate.atstumasTarpDviejuKoordinaciu(5, 10, 0, 7);
         System.out.println("kitasAtstumas = " + kitasAtstumas);
+
+
+        double atstumasPakartotinai = k1.atstumasTarpDviejuKoordinaciu(k2);
+        System.out.println("atstumasPakartotinai = " + atstumasPakartotinai);
     }
 }

@@ -41,6 +41,19 @@ public class Koordinate {
         return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
     }
 
+    /**
+     * Overloadinta atstumo funkcija, kuri NĖRA static, kadangi lygina ŠITĄ koordinatę, su ta kurią gauna
+     * @param koord iki kurios koordinatės
+     * @return realųjų skaičių - atstumą
+     */
+    public double atstumasTarpDviejuKoordinaciu(Koordinate koord) {
+        double x1 = this.x;
+        double x2 = koord.getX();
+        double y1 = this.y;
+        double y2 = koord.getY();
+        return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
+    }
+
     // getteriai-setteriai
     public double getX() {
         return x;
